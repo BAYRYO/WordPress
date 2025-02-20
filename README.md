@@ -49,10 +49,15 @@
 
 ## Commandes utiles
 
-- **Arrêter les conteneurs :**
+- **Arrêter les conteneurs (avec suppression des conteneurs) :**
 
     ```sh
     docker-compose down
+    ```
+- **Stopper sans supprimer (sans suppression des conteneurs) :** Interface Docker Desktop ou
+
+    ```sh
+    docker-compose stop
     ```
 
 - **Voir les conteneurs en cours :** Interface Docker Desktop ou
